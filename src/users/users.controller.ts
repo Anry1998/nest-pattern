@@ -17,7 +17,7 @@ export class UsersController {
     @Get()
     async getUsers() {
 
-        return 'Hello word!'
+        return 'Hello world!'
         return this.usersService.getUsers()
     }
 
